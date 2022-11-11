@@ -679,6 +679,9 @@ section.copy p{
 .bg-grey{
     background: #f4f4f4;
 }
+.foot-logo{
+    display: block;
+}
 
 @media only screen and (max-width:1024px){
     .for-mobile{
@@ -775,7 +778,12 @@ section.copy p{
     footer{
         padding: 60px 15px;
     }
-
+    .foot-logo{
+        margin-bottom: 60px;
+    }
+    .page-cover h2{
+        font-size: 32px;
+    }
 }
 
 @media only screen and (max-width:768px){
