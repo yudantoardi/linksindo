@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="asset/css/fontawesome-all.css">
     <link rel="stylesheet" href="asset/css/owl.carousel.css">
+    <link rel="stylesheet" href="asset/css/aos.css">
     <link rel="stylesheet" href="asset/css/main.css">
     
 </head>
@@ -382,7 +383,7 @@
                     </div>
                     <div class="col-md-1"><div class="spacer"></div></div>
                     <div class="col-md-5">
-                        <figure>
+                        <figure data-aos="fade-up" data-aos-delay="500">
                             <img src="asset/images/contact-person.png" alt="">
                         </figure>
                     </div>
@@ -437,9 +438,11 @@
 
     <script src="asset/js/jquery-1.11.0.min.js"></script>
     <script src="asset/js/owl.carousel.min.js"></script>
+    <script src="asset/js/aos.js"></script>
     <script src="asset/js/main.js"></script>
 
     <script>
+        AOS.init();
         $(document).ready(function(){
             $(".hero-slider").owlCarousel({
                 singleItem: true,
