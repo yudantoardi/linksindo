@@ -371,6 +371,9 @@ header .logo img{
     overflow-y: auto;
     text-align: left;
 }
+#services .card:hover .text p::-webkit-scrollbar{
+    display: none;
+}
 
 .blog-card{
     border-radius: 20px;
