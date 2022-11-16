@@ -305,45 +305,33 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-3 col-xs-6">
-                        <figure>
-                            <img src="asset/images/ico-holcim.png" alt="">
-                        </figure>
-                    </div>
-                    <div class="col-md-3 col-xs-6">
-                        <figure>
-                            <img src="asset/images/ico-cimb.png" alt="">
-                        </figure>
-                    </div>
-                    <div class="col-md-3 col-xs-6">
-                        <figure>
-                            <img src="asset/images/ico-sony.png" alt="">
-                        </figure>
-                    </div>
-                    <div class="col-md-3 col-xs-6">
-                        <figure>
-                            <img src="asset/images/ico-fontera.png" alt="">
-                        </figure>
-                    </div>
-                    <div class="col-md-3 col-xs-6">
-                        <figure>
-                            <img src="asset/images/ico-wyeth.png" alt="">
-                        </figure>
-                    </div>
-                    <div class="col-md-3 col-xs-6">
-                        <figure>
-                            <img src="asset/images/ico-matahari.png" alt="">
-                        </figure>
-                    </div>
-                    <div class="col-md-3 col-xs-6">
-                        <figure>
-                            <img src="asset/images/ico-mbiz.png" alt="">
-                        </figure>
-                    </div>
-                    <div class="col-md-3 col-xs-6">
-                        <figure>
-                            <img src="asset/images/ico-castrol.png" alt="">
-                        </figure>
+                    <div class="col-md-12">
+                        <div class="client-slider owl-carousel">
+                            <div class="item">
+                                <img src="asset/images/ico-holcim.png" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="asset/images/ico-cimb.png" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="asset/images/ico-sony.png" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="asset/images/ico-fontera.png" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="asset/images/ico-wyeth.png" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="asset/images/ico-matahari.png" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="asset/images/ico-mbiz.png" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="asset/images/ico-castrol.png" alt="">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -457,6 +445,10 @@
                 singleItem: true,
                 navigation: true,
                 pagination: true
+            });
+            $(".client-slider").owlCarousel({
+                items: 4,
+                autoPlay: true
             });
         });
     </script>
